@@ -1,0 +1,35 @@
+/*
+Theme Name: Theme LFS
+Theme URI: https://lfswebdeveloper.com.br
+Description: Tema responsivo utilizando bootstrap
+Author: Leandro Ferreira
+Author URI: https://lfswebdeveloper.com.br
+Version: 1.0
+Tags: responsive, white, bootstrap
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+
+Este tema simples foi criado usando o exemplo Jumbotron encontrado no site do Bootstrap http://getbootstrap.com/examples/jumbotron/
+*/
+
+/* Bootstrap core CSS */
+@import url('lib/css/bootstrap.min.css');
+
+
+/* Custom styles for this template */
+
+body { 
+    padding-top: 60px; 
+    padding-bottom: 40px; 
+}
+
+.navbar-inverse .navbar-nav > .current_page_item > a,
+.navbar-inverse .navbar-nav > .current_page_item > a:hover,
+.navbar-inverse .navbar-nav > .current_page_item > a:focus,
+.navbar-inverse .navbar-nav > .current_page_parent > a,
+.navbar-inverse .navbar-nav > .current_page_parent > a:hover,
+.navbar-inverse .navbar-nav > .current_page_parent > a:focus  {
+  color: #fff;
+  background-color: #080808;
+}
